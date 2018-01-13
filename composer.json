@@ -1,0 +1,21 @@
+{
+    "name": "peeto/LaravelDarkChat",
+    "description": "DarkChat usage example for Laravel 5",
+    "license": "GNU General Public License v2.0",
+    "authors": [
+        {
+            "name": "Chris Petersen",
+            "email": "petersenc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-sqlite3": "*",
+        "peeto/dark-chat": ">=0.95"
+    },
+    "autoload": {
+        "psr-4": {
+            "peeto\\LaravelDarkChat\\": "src/"
+        }
+    }
+}
